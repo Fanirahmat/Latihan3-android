@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="120dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:textAlignment="center"
+            android:textColor="#008477"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:src="@drawable/cap" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Alamat"
+            android:inputType="textPersonName"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/no_telp"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Telphone"
+            android:inputType="textPersonName"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#008477"
+            android:text="SAVE NAME"
+            android:textColor="#fff" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
